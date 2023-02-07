@@ -10,12 +10,20 @@ include "header.php" ?>
 </h2>
 
 <form action="action.php" method="post">
+<div class="row">
 
-First name: <input type="text" name="fname"> <br>
-Last name: <input type="text" name="lname"> <br>
-Birth Date: <input type="date" name="bdate"> <br>
-Select fav color: <input type="color" name="fcolor"> <br>
-<input type="submit" value="Submit">
+    <div class="col">
+        <input type="text" placeholder="First Name" name="fname" required> <br> 
+    </div>
+    <div class="col">
+        <input type="text" placeholder="Last Name" name="lname" required> <br> 
+    </div>
+</div>
+
+        Birth Date: <input type="date" name="bdate" required> <br>
+        Select fav color: <input type="color" name="fcolor" required> <br>
+        <input type="submit" value="Submit">
+
 
 </form>
 
