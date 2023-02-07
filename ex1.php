@@ -21,10 +21,11 @@
 
     <h1> 3.3 Write the PHP code in to display the current date </h1>
     <?php 
-    echo date("d.m.y") 
+    echo date("d.m.y");
     ?>
 
-    <h1> $title = "PHP is interesting” </h1>
+    <?php echo "<h1> $title = \"PHP is interesting\" </h1>";
+    ?>
     
 </body>
 </html>
