@@ -3,8 +3,8 @@ $title="Exercise 3";
 include "header.php" ?>
 
 <form action="" method="get">
-    <input type="number" placeholder="Enter your first number" name="num1" required>
-    <input type="number" placeholder="Enter your second number" name="num2" required>
+    <input type="number" step="any" placeholder="Enter your first number" name="num1" required>
+    <input type="number" step="any" placeholder="Enter your second number" name="num2" required>
     <select name="operator">
         <option value="add"> Add </option>
         <option value="sub"> Subtract </option>
