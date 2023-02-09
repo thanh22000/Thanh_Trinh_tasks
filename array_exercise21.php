@@ -14,10 +14,10 @@ include "header.php" ?>
     <input type="submit" name="calculate" value="Calculate">
 </form>
 <?php
-if (isset($_get["cal"])){
-    $num1=$_get["num1"];
-    $num2=$_get["num2"];
-    $operator=$_get["operator"];
+if (isset($_GET["cal"])){
+    $num1=$_GET["num1"];
+    $num2=$_GET["num2"];
+    $operator=$_GET["operator"];
     switch($operator){
         case "add":
             $result=$num1+$num2;
