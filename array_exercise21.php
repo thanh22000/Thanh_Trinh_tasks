@@ -1,6 +1,4 @@
-<?php 
-$title="Exercise 3";
-include "header.php" ?>
+<?php include "header.php" ?>
 
 <form action="" method="get">
     <input type="number" step="any" placeholder="Enter your first number" name="num1" required>
