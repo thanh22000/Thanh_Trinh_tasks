@@ -41,7 +41,14 @@ if (isset($_POST['update'])){
 }
 
 if (isset($_POST['delete'])){
-    
+    $query = mysqli_query($conn, "DELETE FROM studentinfo  
+    where id='$a'");
+    if($query){
+        echo "<h2> Your information is deleted successfully </h2>";
+    }
+    else {
+        echo "<h2> Record not modified </h2>";
+    }
 }
 
 
