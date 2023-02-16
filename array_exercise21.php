@@ -1,18 +1,20 @@
-<?php include "header.php" ?>
+<?php 
+$title ="Array Ex21";
+include "layout/header.php" ?>
 
 <form action="" method="get">
-    <input type="number" step="any" placeholder="Enter your first number" name="num1" required>
-    <input type="number" step="any" placeholder="Enter your second number" name="num2" required>
+    <input type="number" step="any" placeholder="Enter your first number" name="num1" required> <br>
+    <input type="number" step="any" placeholder="Enter your second number" name="num2" required> <br>
     <select name="operator">
         <option value="add"> Add </option>
         <option value="sub"> Subtract </option>
         <option value="mul"> Multiply </option>
         <option value="div"> Divide </option>
-    </select>
+    </select> <br>
     <input type="submit" name="calculate" value="Calculate">
 </form>
 <?php
-if (isset($_GET["cal"])){
+if (isset($_GET["calculate"])){
     $num1=$_GET["num1"];
     $num2=$_GET["num2"];
     $operator=$_GET["operator"];
@@ -40,4 +42,4 @@ if (isset($result)){
 
 
 
-<?php include "footer.php" ?>
+<?php include "layout/footer.php" ?>

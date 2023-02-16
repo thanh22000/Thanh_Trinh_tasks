@@ -37,6 +37,9 @@
           <a class="nav-link" href="controlflow.php">Exercise 4</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="array.php">Exercise 5</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="aboutus.php">About me</a>
         </li>
         <li class="nav-item">
@@ -60,6 +63,9 @@
       </div>
       <div>
           <a class="sidebar-link" href="browser.php" style="background-color: rgb(65, 7, 109);"> Detect Browser </a>
+      </div>
+      <div>
+          <a class="sidebar-link" href="array_exercise21.php" style="background-color: rgb(65, 7, 109);"> Array Ex21 </a>
       </div>
       <h4> Simple CRUD APP </h4>
     </div>
