@@ -34,6 +34,9 @@
           <a class="nav-link" href="variable.php">Exercise 3</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="controlflow.php">Exercise 4</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="aboutus.php">About me</a>
         </li>
         <li class="nav-item">
@@ -51,7 +54,13 @@
 </div> 
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
-      <h3>List of Tasks</h3>
-      some thing here
+      <h4>List of Tasks</h4>
+      <div>
+          <a class="sidebar-link" href="sinput.php" style="background-color: rgb(65, 7, 109);"> Simple Input </a>
+      </div>
+      <div>
+          <a class="sidebar-link" href="browser.php" style="background-color: rgb(65, 7, 109);"> Detect Browser </a>
+      </div>
+      <h4> Simple CRUD APP </h4>
     </div>
     <div class="col-sm-9">
