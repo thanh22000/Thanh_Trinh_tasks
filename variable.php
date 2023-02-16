@@ -62,7 +62,8 @@ include "header.php" ?>
     <?php 
     $string1 = "I am";
     $string2 = "Luke.";
-    echo $string1 ." ". $string2 <br>;
+    echo $string1 ." ". $string2;
+    echo "<br><br>";
     echo strlen($string1 ." ". $string2);
     ?>
 
