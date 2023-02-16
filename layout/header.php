@@ -28,16 +28,16 @@
           <a class="nav-link" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Thanh_Trinh_tasks/inclass/ex1.php">Exercise 1</a>
+          <a class="nav-link" href="ex1.php">Exercise 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/inclass/variable.php">Exercise 3</a>
+          <a class="nav-link" href="variable.php">Exercise 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/inclass/aboutus.php">About me</a>
+          <a class="nav-link" href="aboutus.php">About me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/inclass/contactus.php">Contact me</a>
+          <a class="nav-link" href="contactus.php">Contact me</a>
         </li>
         
       </ul>
