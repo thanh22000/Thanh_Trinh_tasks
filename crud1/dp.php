@@ -1,5 +1,5 @@
 <?php 
-$servername="databaseclass-db-1";
+$servername="web-dev-env-main-db-1";
 $username="capp1";
 $password="password";
 $dbname="capp1";

@@ -1,6 +1,6 @@
 <?php 
 $title="Exercise 3";
-include "layout/header.php" ?>
+include "../layout/header.php" ?>
 
 <h3> Exercise 3. In-class Task Variable & Operators (variable.php) </h3>
 
@@ -89,4 +89,4 @@ include "layout/header.php" ?>
     display the last modification time of a file.
 </h3>
 
-<?php include "layout/footer.php" ?>
+<?php include "../layout/footer.php" ?>

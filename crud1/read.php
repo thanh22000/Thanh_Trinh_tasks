@@ -1,7 +1,9 @@
 <?php
 $title = "Reading Data from the database";
 include '../layout/header.php';
-include 'db.php';
+include 'dp.php'; 
+?>
+<?php
 $sql = "select * from studentinfo";
 $result = $conn->query($sql);
 if($result->num_rows > 0){
@@ -24,11 +26,12 @@ if($result->num_rows > 0){
         <td>$row[groupid]</td>
         </tr>
     ";}
+    echo "</table>";
 }
-echo "</table>";
 else{
     echo "NO RESULTS!";
 }
-$conn->close();
+$conn->close(); ?>
+<?php
 include '../layout/footer.php';
 ?>

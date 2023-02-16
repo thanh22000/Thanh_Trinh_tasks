@@ -1,12 +1,11 @@
 <?php
 $title = "Update your info";
-include 'db.php';
+include 'dp.php';
 include '../layout/header.php';
 $a = $_GET['id'];
 $result = mysqli_query($conn,"Select * from studentinfo where id='$a'");
-$row = mysqli_fetch_array($result);
+$row = mysqli_fetch_array($result);?>
 
-?>
 <h2> Update your information below </h2>
 <form name="update" method="post" action="">
     <input type="text" name="fname" placeholder="First Name" required value="<?php echo $row['fname']; ?>"> <br><br>
@@ -54,3 +53,4 @@ if (isset($_POST['delete'])){
 
 
 ?>
+<?php include '../layout/footer.php'; ?>

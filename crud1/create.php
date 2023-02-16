@@ -29,8 +29,9 @@ if(isset($_POST['submit'])){
         echo "Error:" . $conn->error;
     }
 }
+?>
 
 
 
 
-<?php include '../layout/header.php'; ?>
+<?php include '../layout/footer.php'; ?>

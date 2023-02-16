@@ -1,6 +1,6 @@
 <?php 
 $title = 'Excercise 1';
-include 'layout/header.php';?>
+include '../layout/header.php';?>
 <h3> 3.1 Write a simple PHP script to print your information </h3>
 <?php
 echo "Thanh Trinh <br>";
@@ -61,5 +61,5 @@ echo "<h1>" . $title1 . "</h1>";
 <?php echo '<img src="images/ex1.jpg" style="length: 880px; width: 660px;">';?>
 
 <?php 
-include 'layout/footer.php';
+include '../layout/footer.php';
 ?>

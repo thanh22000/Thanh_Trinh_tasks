@@ -1,6 +1,6 @@
 <?php
 $title = 'Simple Input';
-include "layout/header.php";
+include "../layout/header.php";
 ?>
 <?php
 if (isset($_POST["first_name"]) && isset($_POST["last_name"])) {
@@ -17,5 +17,5 @@ else { ?>
     <input type="submit" value="Submit">
 </form>
 <?php }
-include "layout/footer.php";
+include "../layout/footer.php";
 ?>

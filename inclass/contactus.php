@@ -1,6 +1,6 @@
 <?php 
 $title = 'Contact Me';
-include 'layout/header.php'; ?>
+include '../layout/header.php'; ?>
 <h2> Contact me </h2>
 <p> Trinh Tan Thanh aka Luke </p>
 <p> BBCAP22 </p>
@@ -9,4 +9,4 @@ include 'layout/header.php'; ?>
 
 
 
-<?php include 'layout/footer.php'; ?>
+<?php include '../layout/footer.php'; ?>

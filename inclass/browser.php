@@ -1,6 +1,6 @@
 <?php
 $title = ' Detect Browser';
-include "layout/header.php";
+include "../layout/header.php";
 $user_agent = $_SERVER['HTTP_USER_AGENT'];
 
 
@@ -23,5 +23,5 @@ else {
 
 
 <?php 
-include "layout/footer.php";
+include "../layout/footer.php";
 ?>

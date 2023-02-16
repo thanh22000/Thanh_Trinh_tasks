@@ -1,6 +1,6 @@
 <?php 
 $title="Exercise 3";
-include "layout/header.php";
+include "../layout/header.php";
 
 $fname=$_POST['fname'];
 $lname=$_POST['lname'];
@@ -17,4 +17,4 @@ echo "<h3> Hello, $fname $lname. <br>
 
 ?>
 
-<?php include "layout/footer.php" ?>
+<?php include "../layout/footer.php" ?>

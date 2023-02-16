@@ -25,27 +25,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
+          <a class="nav-link" aria-current="page" href="http://localhost:81/Thanh_Trinh_tasks/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise 1</a>
+          <a class="nav-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/ex1.php">Exercise 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="variable.php">Exercise 3</a>
+          <a class="nav-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/variable.php">Exercise 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="controlflow.php">Exercise 4</a>
+          <a class="nav-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/controlflow.php">Exercise 4</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="array.php">Exercise 5</a>
+          <a class="nav-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/array.php">Exercise 5</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact me</a>
-        </li>
-        
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -59,14 +52,29 @@
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h4>List of Tasks</h4>
       <div>
-          <a class="sidebar-link" href="sinput.php" style="background-color: rgb(65, 7, 109);"> Simple Input </a>
+          <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/aboutus.php" style="background-color: rgb(65, 7, 109);"> About Me </a>
       </div>
       <div>
-          <a class="sidebar-link" href="browser.php" style="background-color: rgb(65, 7, 109);"> Detect Browser </a>
+          <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/contactus.php" style="background-color: rgb(65, 7, 109);"> Contact Me </a>
       </div>
       <div>
-          <a class="sidebar-link" href="array_exercise21.php" style="background-color: rgb(65, 7, 109);"> Array Ex21 </a>
+          <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/sinput.php" style="background-color: rgb(65, 7, 109);"> Simple Input </a>
+      </div>
+      <div>
+          <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/browser.php" style="background-color: rgb(65, 7, 109);"> Detect Browser </a>
+      </div>
+      <div>
+          <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/inclass/array_exercise21.php" style="background-color: rgb(65, 7, 109);"> Array Ex21 </a>
       </div>
       <h4> Simple CRUD APP </h4>
+      <div>
+        <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/crud1/create.php" style="background-color: rgb(65, 7, 109);"> Crud app </a>
+      </div>
+      <div>
+        <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/crud1/read.php" style="background-color: rgb(65, 7, 109);"> Read </a>
+      </div>
+      <div>
+        <a class="sidebar-link" href="http://localhost:81/Thanh_Trinh_tasks/crud1/updatesingle.php" style="background-color: rgb(65, 7, 109);"> Update info </a>
+      </div>
     </div>
     <div class="col-sm-9">

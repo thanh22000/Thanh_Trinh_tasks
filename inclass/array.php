@@ -1,6 +1,6 @@
 <?php 
 $title = "Exercise 5";
-include "layout/header.php"; ?>
+include "../layout/header.php"; ?>
 
 <h3> 1. Write a php script to display courses as list </h3>
 <?php 
@@ -98,4 +98,4 @@ echo $temp_array[$i].", ";
 ?>
 
 
-<?php include "layout/footer.php" ?>
+<?php include "../layout/footer.php" ?>

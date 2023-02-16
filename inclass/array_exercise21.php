@@ -1,6 +1,6 @@
 <?php 
 $title ="Array Ex21";
-include "layout/header.php" ?>
+include "../layout/header.php" ?>
 
 <form action="" method="get">
     <input type="number" step="any" placeholder="Enter your first number" name="num1" required> <br>
@@ -42,4 +42,4 @@ if (isset($result)){
 
 
 
-<?php include "layout/footer.php" ?>
+<?php include "../layout/footer.php" ?>
