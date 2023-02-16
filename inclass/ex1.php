@@ -19,10 +19,15 @@ echo date("d.m.y");
 ?>
 
 <h3> 3.4 Put this variable as a title marked as h1 in your HTML document </h3>
-<?php echo "<h1> \$title = \"PHP is interesting\" </h1>";?>
+<?php $title1 = "PHP is interesting";
+echo "<h1>" . $title1 . "</h1>";
+?>
 
 <h3> 3.5 Use HTML table into echo and include 3 columns S.N, Name, and Grade </h3>
 <?php 
+    $g1=5;
+    $g2=4;
+    $g3=5;
     echo "  <table>
                 <thead>
                 <tr>
@@ -35,17 +40,17 @@ echo date("d.m.y");
                     <tr>
                         <th>1</th>
                         <td>Pekka</td>
-                        <td>5</td>
+                        <td>$g1</td>
                     </tr>
                     <tr>
                         <th>2</th>
                         <td>Johanna</td>
-                        <td>4</td>
+                        <td>$g2</td>
                     </tr>
                     <tr>
                         <th>3</th>
                         <td>John</td>
-                        <td>5</td>
+                        <td>$g3</td>
                     </tr>
                 </tbody>
             </table>"; ?>

@@ -4,10 +4,10 @@ include "layout/header.php" ?>
 
 <h3> Exercise 3. In-class Task Variable & Operators (variable.php) </h3>
 
-<h2> 
+<h3> 
     1. Create a simple html form to get Firstname and Lastname from the user and use
     echo statement to print using tag: Hello …., You are welcome to my site.
-</h2>
+</h3>
 
 <form action="action.php" method="post">
     <div class="row">
@@ -25,7 +25,7 @@ include "layout/header.php" ?>
             <input type="submit" value="Submit">
     </form>
 
-<h2> 3. Prepare a simple html table and apply bootstrap style to the table. </h2>
+<h3> 3. Prepare a simple html table and apply bootstrap style to the table. </h3>
 
 <table class="table">
     <thead>
@@ -54,10 +54,10 @@ include "layout/header.php" ?>
     </tbody>
 </table>
 
-<h2> 4. Write a PHP script with two string variables. 
+<h3> 4. Write a PHP script with two string variables. 
     Assign any text to these variables. Join them together.  
     Print the length of the string. 
-</h2>
+</h3>
 
     <?php 
     $string1 = "I am";
@@ -67,9 +67,9 @@ include "layout/header.php" ?>
     echo strlen($string1 ." ". $string2);
     ?>
 
-<h2> 5. Write a script to add up the numbers: 298, 234, 46. 
+<h3> 5. Write a script to add up the numbers: 298, 234, 46. 
     Use variables to store these numbers and echo statement to output your answer.
-</h2>
+</h3>
     <?php
         $n1=298;
         $n2=234;
@@ -78,21 +78,15 @@ include "layout/header.php" ?>
     ?>
 
 
-<h2> 6. Write a PHP script to detect the browser being used to view your pages. </h2>
+<h3> 6. Write a PHP script to detect the browser being used to view your pages. </h3>
 
     <?php
     echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
     ?>
 
-<h2> 7. Write a PHP script in the footer section of your universal footer 
+<h3> 7. Write a PHP script in the footer section of your universal footer 
     just below the Copyright information to 
     display the last modification time of a file.
-</h2>
-
-    <?php 
-        echo "Last modified on ".date("l, F d Y H:i:s.",filemtime("variable.php"));
-    ?>
-
-
+</h3>
 
 <?php include "layout/footer.php" ?>
