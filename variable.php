@@ -1,6 +1,6 @@
 <?php 
 $title="Exercise 3";
-include "header.php" ?>
+include "layout/header.php" ?>
 
 <h3> Exercise 3. In-class Task Variable & Operators (variable.php) </h3>
 
@@ -95,4 +95,4 @@ include "header.php" ?>
 
 
 
-<?php include "footer.php" ?>
+<?php include "layout/footer.php" ?>
